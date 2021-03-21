@@ -39,7 +39,7 @@
   background-repeat: no-repeat;
   border: 0px !important;
   border-radius: 15px !important;
-  box-shadow: -20px 50px 500px 0px var(--darkBlue);
+  box-shadow: -20px 50px 100px rgba(8, 70, 94, 0.5);
 }
 
 .profilePicture {

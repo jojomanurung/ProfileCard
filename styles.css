@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  /*Primary Colors*/
+  --darkCyan: hsl(185, 75%, 39%);
+  --darkBlue: hsl(229, 23%, 23%);
+  --grayBlue: hsl(227, 10%, 46%);
+  --white: white;
+
+  /* Neutral Colours */
+  --darkGray: hsl(0, 0%, 59%);
+  --lightGray: hsl(225, 10%, 92%);
+
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: var(--darkCyan);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-position: top -560px left -750px, bottom -600px right -710px;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  background-color: var(--white);
+  height: 395px;
+  width: 350px;
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  background-image: url("/images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: -20px 50px 80px 0px rgba(5, 80, 95, 0.5);
+}
+
+.profilePicture {
+  position: absolute;
+  border-radius: 100px;
+  top: 90px;
+  left: 127px;
+  padding: 5px;
+  background-color: var(--white);
+  padding: 5px;
+  transform: translate(0px, -2px);
+}
+
+#name {
+  position: absolute;
+  top: 220px;
+  left: 116px;
+  font-weight: bold;
+  color: var(--darkBlue);
+}
+
+#age {
+  position: absolute;
+  top: 220px;
+  left: 227px;
+  color: var(--grayBlue);
+}
+
+#country {
+  position: absolute;
+  top: 251px;
+  left: 150px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: var(--grayBlue);
+}
+
+.separator hr {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 300px;
+  border-color: var(--lightGray);
+}
+
+.followers {
+  position: absolute;
+  top: 330px;
+  left: 51px;
+  height: 40px;
+  width: 50px;
+}
+
+.likes {
+  position: absolute;
+  top: 330px;
+  left: 154px;
+  height: 40px;
+  width: 50px;
+}
+
+.photos {
+  position: absolute;
+  top: 330px;
+  left: 247px;
+  height: 40px;
+  width: 41px;
+}
+
+.stats {
+  text-align: center;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 0;
+  color: var(--darkBlue);
+}
+
+.label {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  font-size: 10px;
+  margin-top: 5px;
+  color: var(--grayBlue);
+}
+
+/* Desktop Styling */
+@media (min-width: 768px) {
+  .page {
+    background-position: top -500px left -340px, bottom -650px right -290px;
+    height: 100vh;
+    width: 100%;
+  }
+  .card {
+    top: 20%;
+    left: 37%;
+  }
+}

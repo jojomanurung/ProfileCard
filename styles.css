@@ -25,7 +25,7 @@
   background-color: var(--darkCyan);
   background-image: url(./images/bg-pattern-top.svg),
     url(./images/bg-pattern-bottom.svg);
-  background-position: top -560px left -750px, bottom -600px right -710px;
+  background-position: top -580px left -750px, bottom -621px right -750px;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
@@ -33,22 +33,22 @@
 
 .card {
   background-color: var(--white);
-  height: 395px;
-  width: 350px;
+  height: 375px;
+  width: 325px;
   position: absolute;
   top: 25%;
-  left: 8%;
+  left: 7%;
   background-image: url("/images/bg-pattern-card.svg");
   background-repeat: no-repeat;
   border-radius: 15px;
-  box-shadow: -20px 50px 80px 0px rgba(5, 80, 95, 0.5);
+  box-shadow: -20px 50px 100px 0px rgba(5, 80, 95, 0.5);
 }
 
 .profilePicture {
   position: absolute;
   border-radius: 100px;
   top: 90px;
-  left: 127px;
+  left: 114px;
   padding: 5px;
   background-color: var(--white);
   padding: 5px;
@@ -58,7 +58,7 @@
 #name {
   position: absolute;
   top: 220px;
-  left: 116px;
+  left: 96px;
   font-weight: bold;
   color: var(--darkBlue);
 }
@@ -66,49 +66,49 @@
 #age {
   position: absolute;
   top: 220px;
-  left: 227px;
+  left: 205px;
   color: var(--grayBlue);
 }
 
 #country {
   position: absolute;
   top: 251px;
-  left: 150px;
+  left: 138px;
   font-size: 15px;
   font-weight: lighter;
   color: var(--grayBlue);
 }
 
-.separator hr {
+.separator {
   position: absolute;
   left: 0px;
   right: 0px;
-  top: 300px;
+  top: 290px;
   border-color: var(--lightGray);
 }
 
 .followers {
   position: absolute;
-  top: 330px;
-  left: 51px;
-  height: 40px;
-  width: 50px;
+  top: 320px;
+  left: 50px;
+  height: 35px;
+  width: 63px;
 }
 
 .likes {
   position: absolute;
-  top: 330px;
-  left: 154px;
+  top: 320px;
+  left: 140px;
   height: 40px;
   width: 50px;
 }
 
 .photos {
   position: absolute;
-  top: 330px;
-  left: 247px;
+  top: 320px;
+  left: 230px;
   height: 40px;
-  width: 41px;
+  width: 42px;
 }
 
 .stats {
@@ -129,14 +129,14 @@
 }
 
 /* Desktop Styling */
-@media (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .page {
-    background-position: top -500px left -340px, bottom -650px right -290px;
+    background-position: top -500px left -332px, bottom -680px right -260px;
     height: 100vh;
     width: 100%;
   }
   .card {
-    top: 20%;
+    top: 25%;
     left: 37%;
   }
 }

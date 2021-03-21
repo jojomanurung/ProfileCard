@@ -45,7 +45,7 @@
 .profilePicture {
   position: absolute;
   border-radius: 100px;
-  top: 90px;
+  top: 89px;
   left: 125px;
   padding: 5px;
   background-color: var(--white);
@@ -55,7 +55,7 @@
 
 #name {
   position: absolute;
-  top: 215px;
+  top: 210px;
   left: 110px;
   font-family: "Kumbh Sans", sans-serif;
   font-weight: bold;
@@ -64,7 +64,7 @@
 
 #age {
   position: absolute;
-  top: 215px;
+  top: 210px;
   left: 223px;
   font-family: "Kumbh Sans", sans-serif;
   color: var(--grayBlue);
@@ -72,7 +72,7 @@
 
 #country {
   position: absolute;
-  top: 245px;
+  top: 243px;
   left: 150px;
   font-family: "Kumbh Sans", sans-serif;
   font-size: 15px;
@@ -82,7 +82,7 @@
 
 .followers {
   position: absolute;
-  top: 320px;
+  top: 315px;
   left: 40px;
   height: 35px;
   width: 63px;
@@ -90,7 +90,7 @@
 
 .likes {
   position: absolute;
-  top: 320px;
+  top: 315px;
   left: 150px;
   height: 40px;
   width: 50px;
@@ -98,7 +98,7 @@
 
 .photos {
   position: absolute;
-  top: 320px;
+  top: 315px;
   left: 250px;
   height: 40px;
   width: 45px;
@@ -127,7 +127,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 275px;
+  top: 270px;
   border-color: var(--lightGray);
 }
 

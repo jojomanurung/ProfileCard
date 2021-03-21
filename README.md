@@ -16,20 +16,24 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### The challenge
 
-- Your challenge is to build out this profile card component and get it looking as close to the design as possible.
+Your challenge is to build out this profile card component and get it looking as close to the design as possible.
 
-- You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 ### Screenshot
 
-["Desktop"](./screenshot/desktop-desing.png)
+#### Desktop
 
-["Mobile"](./screenshot/mobile-desing.png)
+![](screenshot/desktop-desing.png)
+
+#### Mobile
+
+![](screenshot/mobile-desing.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/jojomanurung/ProfileCard#overview)
+- Live Site URL: [My-Profile-Card-FEM](https://my-profile-card-fem.netlify.app/)
 
 ## My process
 
@@ -41,4 +45,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Deploy to
 
-- Netlify [Netlify](https://netlify.com)
+- [Netlify](https://netlify.com)

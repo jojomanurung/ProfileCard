@@ -24,11 +24,11 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 #### Desktop
 
-![](screenshot/desktop-desing.png)
+![](./screenshots/desktop-design.png)
 
 #### Mobile
 
-![](screenshot/mobile-desing.png)
+![](./screenshots/mobile-design.png)
 
 ### Links
 

@@ -134,7 +134,7 @@
 /* Desktop Styling */
 @media screen and (min-width: 1440px) {
   .page {
-    background-position: top -470px left -295px, bottom -610px right -240px;
+    background-position: top -470px left -295px, bottom -627px right -220px;
     height: 100vh;
     width: 100%;
   }
